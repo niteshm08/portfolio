@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>myportfolio</title>
+</head>
+<body>
+  <header>
+  	<div class="container">
+  		<div id="branding">
+  			<h1><img src="C:\Users\Machine\Desktop\html\portfolio 1\n11.jpg" class="circle" width="100px" height="100px" >
+  			Nitesh Mehrotra</h1>
+  		</div>
+  		<nav>
+  			<ul>
+  				<li class="current"><a href="#">Home</a></li>
+  				<li><a href="#">About</a></li>	
+  				<li> 
+            <a onclick="document.getElementById('simpleModal').style.display='block'">Contact</a>
+              <div class="modal" id="simpleModal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span id="closeBtn" onclick="document.getElementById('simpleModal').style.display='none'" >&times;</span>
+                    <h2>HEADER</h2>
+                  </div>
+                  <div class="modal-body">
+                    
+                  </div>
+                  <div class="modal-footer">
+                    
+                  </div>
+                </div>
+              </div>
+            </li>
+  			</ul>
+  		</nav>
+  	</div>
+
+  </header>
+
+  <section id="showcase">
+  	<div class="container">
+  		<h1  id="cng" onmouseover="mDown(this)" onmouseout="mUp(this)">WEB DEVELOPMENT PORTFOLIO</h1>
+  		<h2>FRONT END DEVELOPER</h2>
+  		<P>Developed using HTML,CSS and JAVA SCRIPT.</P>
+  	</div>
+  </section>
+
+  <h2 align="center">SKILLS
+  	<div  id="chain" class="fa ">
+  	</div>
+  </h2>
+
+  <hr class="line">
+  <section id="boxes">
+  	<div class="container">
+  		<div class="box">
+  			<img src="C:\Users\Machine\Desktop\html\portfolio 1\htm.png" width=250px height="250px>
+  		</div>
+  		<div class="box">
+  			<img src="C:\Users\Machine\Desktop\html\portfolio 1\css.jpg" width=250px height="250px">
+  		</div>
+  		<div class="box" id="pic">
+  			<img src="C:\Users\Machine\Desktop\html\portfolio 1\js.jpg" width=250px height="250px">
+  		</div>
+  		<div class="box">
+  			<img src="C:\Users\Machine\Desktop\html\portfolio 1\c.png" width=250px height="250px">
+  		</div>
+  	</div>
+  	
+  </section>
+  <footer>
+  	<p>
+  		Nitesh mehrotra design, copyright &copy; 2017
+  	</p>
+  </footer>
+  <script src="new.js">
+  	
+
+  </script>
+</body>
+</html>
